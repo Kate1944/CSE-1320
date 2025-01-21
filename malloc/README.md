@@ -21,6 +21,9 @@ Worst fit
 ```
 $ env LD_PRELOAD=lib/libmalloc-bf.so tests/bfwf
 ```
+test1 and test2 run malloc and free calls
+test3 checks for coalescing blocks
+test4 checks for splitting and reusing blocks
 ```
 make clean
 ```
